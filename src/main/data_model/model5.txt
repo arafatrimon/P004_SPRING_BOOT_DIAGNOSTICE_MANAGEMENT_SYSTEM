@@ -1,0 +1,32 @@
+Sure, here are some additional fields that can be added to the schema:
+
+Patients Table
+
+Occupation: This field stores the patient's occupation or profession.
+Primary Care Physician: This field stores the name of the patient's primary care physician or family doctor.
+Referral Source: This field stores information about how the patient heard about the diagnostic center, such as through a friend, advertising, or a referral from another doctor.
+Tests Table
+
+Test Provider: This field stores the name of the provider or laboratory that performs the test.
+Sample Type: This field stores the type of sample required for the test, such as blood, urine, or tissue.
+Test Sensitivity: This field stores the sensitivity level of the test, which can help with diagnosing specific conditions or diseases.
+Appointments Table
+
+Referral Doctor: This field stores the name of the doctor who referred the patient to the diagnostic center.
+Follow-up Appointment: This field stores the date and time of any follow-up appointments that are scheduled during the initial appointment.
+Reports Table
+
+Report Issuer: This field stores the name of the laboratory or provider that issued the report.
+Report Status: This field stores the status of the report, such as preliminary, final, or revised.
+Inventory Table
+
+Expiration Date: This field stores the expiration date of the inventory item, such as for medical supplies or medications.
+Storage Location: This field stores the location where the inventory item is stored, such as a specific room or cabinet.
+Billing Table
+
+Insurance Claim Status: This field stores the status of any insurance claims related to the billing, such as pending, denied, or approved.
+Refund Status: This field stores the status of any refunds that are issued, such as pending or processed.
+Employees Table
+
+Employee Photo: This field stores a photo of the employee for identification purposes.
+Employee Documents: This field stores any important documents related to the employee, such as a resume, job application, or background check.

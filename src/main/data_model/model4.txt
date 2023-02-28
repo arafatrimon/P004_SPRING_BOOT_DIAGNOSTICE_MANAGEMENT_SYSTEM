@@ -1,0 +1,86 @@
+Sure, here are some additional fields that could be added to the schema:
+
+Patients Table
+
+Patient ID (primary key)
+First Name
+Last Name
+Date of Birth
+Gender
+Contact Number
+Email
+Address
+Insurance Provider
+Insurance Policy Number
+Emergency Contact Name
+Emergency Contact Number
+Medical History
+Tests Table
+
+Test ID (primary key)
+Test Name
+Test Description
+Test Price
+Test Duration (in minutes)
+Required Preparation (e.g. fasting, medication restrictions)
+Test Category (e.g. blood test, imaging test)
+Test Results Format (e.g. PDF, printed report)
+Appointments Table
+
+Appointment ID (primary key)
+Patient ID (foreign key)
+Test ID (foreign key)
+Appointment Date
+Appointment Time
+Status (scheduled, completed, cancelled)
+Appointment Notes
+Test Results (uploaded after completion)
+Reports Table
+
+Report ID (primary key)
+Appointment ID (foreign key)
+Report Type (lab, radiology, pathology)
+Report Date
+Report Results
+Doctor's Comments
+Report Notes
+Inventory Table
+
+Inventory ID (primary key)
+Item Name
+Item Description
+Item Price
+Quantity
+Supplier Name
+Supplier Contact Information
+Item Category (e.g. medical supplies, office supplies)
+Billing Table
+
+Billing ID (primary key)
+Patient ID (foreign key)
+Appointment ID (foreign key)
+Test ID (foreign key)
+Billing Date
+Billing Amount
+Payment Status (paid, unpaid)
+Payment Method
+Transaction ID
+Discount Applied (if applicable)
+Employees Table
+
+Employee ID (primary key)
+First Name
+Last Name
+Date of Birth
+Gender
+Contact Number
+Email
+Address
+Position
+Salary
+Hire Date
+Termination Date (if applicable)
+Employment Status (active, inactive)
+Employee Notes
+Department
+These additional fields can provide even more detailed information and context for the entities involved in the diagnostic center management system. For example, the Patients table includes fields for emergency contact information and medical history, which can be useful in case of emergencies and for medical record keeping. The Tests table includes fields for test category and test results format, which can help with organizing and formatting test results. The Appointments table includes a field for test results, which can be uploaded after completion and accessed by authorized personnel. The Reports table includes a field for report notes, which can provide additional context for the report results. The Inventory table includes a field for item category, which can help with inventory management and tracking. The Billing table includes a field for discount applied, which can help with accounting and customer relations. The Employees table includes a field for department, which can help with organizational structure and HR management.

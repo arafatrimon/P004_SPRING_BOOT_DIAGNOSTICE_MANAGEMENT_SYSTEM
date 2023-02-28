@@ -1,0 +1,62 @@
+Here's a high-level database schema for a diagnostic center management software model in Spring Boot:
+
+Patients Table
+
+Patient ID (primary key)
+First Name
+Last Name
+Date of Birth
+Gender
+Contact Number
+Email
+Address
+Tests Table
+
+Test ID (primary key)
+Test Name
+Test Description
+Test Price
+Appointments Table
+
+Appointment ID (primary key)
+Patient ID (foreign key)
+Test ID (foreign key)
+Appointment Date
+Appointment Time
+Status (scheduled, completed, cancelled)
+Reports Table
+
+Report ID (primary key)
+Appointment ID (foreign key)
+Report Type (lab, radiology, pathology)
+Report Date
+Report Results
+Inventory Table
+
+Inventory ID (primary key)
+Item Name
+Item Description
+Item Price
+Quantity
+Billing Table
+
+Billing ID (primary key)
+Patient ID (foreign key)
+Appointment ID (foreign key)
+Test ID (foreign key)
+Billing Date
+Billing Amount
+Payment Status (paid, unpaid)
+Employees Table
+
+Employee ID (primary key)
+First Name
+Last Name
+Date of Birth
+Gender
+Contact Number
+Email
+Address
+Position
+Salary
+This schema provides a basic structure for the main entities involved in a diagnostic center management system, such as patients, tests, appointments, reports, inventory, billing, and employees. It can be expanded and modified based on the specific requirements and features of the software model.
